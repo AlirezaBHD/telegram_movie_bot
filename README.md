@@ -9,9 +9,9 @@ It also stores the movie information in an Excel file for tracking purposes.
 
 ## ✨ Features
 
-✅ Fetch movie details (Title, Year, Genre, Director, etc.) 
-✅ Send the movie information and poster to a Telegram channel 
-✅ Store movie information in an Excel file 
+✅ Fetch movie details (Title, Year, Genre, Director, etc.)
+✅ Send the movie information and poster to a Telegram channel
+✅ Store movie information in an Excel file
 ✅ Fully automated workflow
 
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 
 ## 3. Complete `Resource.json` file and add your API credentials:
-
+``` json
 {
     "Telegram": {
         "api_id": "YOUR_API_ID",
@@ -49,7 +49,7 @@ pip install -r requirements.txt
         "api_key": "YOUR_OMDB_API_KEY"
     }
 }
-
+```
 you can get your telegram api_id, api_hash from "https://my.telegram.org/apps".
 
 and your omdb api_key from "https://www.omdbapi.com/apikey.aspx".
