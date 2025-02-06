@@ -9,9 +9,9 @@ It also stores the movie information in an Excel file for tracking purposes.
 
 ## ✨ Features
 
-✅ Fetch movie details (Title, Year, Genre, Director, etc.)\n
-✅ Send the movie information and poster to a Telegram channel
-✅ Store movie information in an Excel file
+✅ Fetch movie details (Title, Year, Genre, Director, etc.)   
+✅ Send the movie information and poster to a Telegram channel   
+✅ Store movie information in an Excel file   
 ✅ Fully automated workflow
 
 
