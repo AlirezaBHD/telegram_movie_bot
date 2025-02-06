@@ -86,17 +86,20 @@ class MovieDataHandler:
 
     async def write_data(self, movie_name):
         movie = self.get_movie_data(movie_name)
+        title = movie["title"]
+        year = movie["year"]
+        director = movie["director"]
         if not movie:
             self.no_information.append(movie_name.strip())
             print(f'!! FAILED "{movie_name.strip()}"\n')
             return
         try:
-            confirm = input(f"Did you mean \"{movie["title"]} {movie["year"]}\" by \"{movie.get("director")}\" ? (y/N)")
+            confirm = input(f"Did you mean \"{title} {year}\" by \"{director}\" ? (y/N)")
             if confirm == "y":
                 self._update_excel(movie)
                 await self._update_telegram(movie)
-                self.done.append(f"{movie_name.strip()} - {movie['title']} {movie['year']}" )
-                print(f'DONE "{movie["title"]}"\n')
+                self.done.append(f"{movie_name.strip()} - {title} {year}" )
+                print(f'DONE "{title}"\n')
             return
         except Exception as e:
             print(f"Error writing data for '{movie_name}': {e}")
