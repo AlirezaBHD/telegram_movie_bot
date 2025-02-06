@@ -95,7 +95,7 @@ class MovieDataHandler:
             if confirm == "y":
                 self._update_excel(movie)
                 await self._update_telegram(movie)
-                self.done.append(movie_name.strip())
+                self.done.append(f"{movie_name.strip()} - {movie['title']} {movie['year']}" )
                 print(f'DONE "{movie["title"]}"\n')
             return
         except Exception as e:
