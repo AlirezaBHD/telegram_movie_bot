@@ -18,9 +18,9 @@ It also stores the movie information in an Excel file for tracking purposes.
 
 ## 📷 Screenshots
 
-![Movie.PNG](C:\Users\msi\Pictures\Movie.PNG)
+![Movie](https://github.com/user-attachments/assets/b2f36eec-f17f-4fb7-be6c-d1bee3ed5f6d)
 
-![Movie2.PNG](C:\Users\msi\Pictures\Movie2.PNG)
+![Movie2](https://github.com/user-attachments/assets/ea765465-cf88-4f11-a596-8e542e496e4a)
 
 
 
