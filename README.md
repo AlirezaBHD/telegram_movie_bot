@@ -38,16 +38,17 @@ pip install -r requirements.txt
 ```
 
 ## 3. Complete `Resource.json` file and add your API credentials:
-``` json
+```json
 {
-    "Telegram": {
-        "api_id": "YOUR_API_ID",
-        "api_hash": "YOUR_API_HASH",
-        "channel_id": "YOUR_BOT_TOKEN"
-    },
-    "omdb": {
-        "api_key": "YOUR_OMDB_API_KEY"
-    }
+  "Telegram":
+  {
+    "api_id" : "",
+    "api_hash" : "",
+    "channel_id" : ""
+  },
+  "omdb" : {
+    "api_key" : ""
+  }
 }
 ```
 you can get your telegram api_id, api_hash from "https://my.telegram.org/apps".
