@@ -1,0 +1,11 @@
+{
+  "Telegram":
+  {
+    "api_id" : "",
+    "api_hash" : "",
+    "channel_id" : ""
+  },
+  "omdb" : {
+    "api_key" : ""
+  }
+}
